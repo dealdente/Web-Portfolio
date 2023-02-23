@@ -1,0 +1,32 @@
+* {
+	border: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+
+}
+
+/*#bg-image {
+	min-height: 2rem;
+	background-image: url(./images/navbar-bg.jpg);
+}*/
+
+nav {
+	border-bottom: 10px solid black;
+}
+
+#bg-image {
+	min-height: 60rem;
+	background-image: url(./images/main-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 100%;
+	background-attachment: scroll;
+}
+
+.container {
+	color: white;
+}
