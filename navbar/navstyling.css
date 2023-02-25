@@ -21,9 +21,28 @@ nav {
 	list-style-type: none;
 }
 
-#bg-image-home {
+#bg-image-aboutme {
 	height: 100vh;
-	background-image: url(./images/home-bg.gif);
+	background-image: url(../images/aboutme-bg.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#bg-image-projects {
+	height: 100vh;
+	background-image: url(../images/projects-bg.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	background-attachment: scroll;
+
+}
+
+#bg-image-contactme {
+	height: 100vh;
+	background-image: url(../images/contactme.gif);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -31,23 +50,8 @@ nav {
 
 }
 
-.container {
-	text-align: center;
-}
-.container h1 {
-	color: white;
-	font-family: "Dancing Script", cursive;
-	font-size: 50px;
-	text-align: center;
-	padding-top: 55%;
-
-}
-
-.container h2 {
-	color: whitesmoke;
-	text-align: center;
-	font-family: "Open Sans", sans-serif;
-	font-size: 20px;
+#contact-main-div {
+	background-color: solid black;
 }
 
 .navbar-name {
