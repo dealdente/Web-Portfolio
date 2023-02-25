@@ -5,7 +5,7 @@
 }
 
 body {
-	font-family: "Raleway", sans-serif;
+	font-family: "Raleway", cursive;
 	}
 
 /*#bg-image {
@@ -59,7 +59,7 @@ nav {
 	padding: 2px;
 /*	margin-left: 1rem;*/
 	border-radius: 16px;
-	font-size: 25px;
+	font-size: 20px;
 	color: whitesmoke;
 	display: inline-block;
 }
@@ -78,4 +78,29 @@ nav {
 	margin-right: 20px;
 	margin-left: 20px;
 	color: whitesmoke;
+}
+
+.form-group {
+ 	margin-top: 150px;
+}
+
+h2 {
+	color: whitesmoke;
+	font-family: "Dancing Script", cursive;
+
+}
+
+input.form-control {
+	border-radius: 10px;
+	border: solid darkblue;
+	margin-top: 5px;
+	background-color: #2ddaed; opacity: 0.5;
+}
+
+textarea.form-control {
+	border-radius: 10px;
+	margin-top: 5px;
+	border: solid darkblue;
+	background-color: #2ddaed; opacity: .5;
+
 }
