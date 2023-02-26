@@ -22,12 +22,12 @@ nav {
 }
 
 #bg-image-aboutme {
-	height: 100vh;
+	min-height: 100vh;
 	background-image: url(../images/aboutme-bg.gif);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
+	background-attachment: scroll;
 }
 
 #bg-image-projects {
@@ -46,7 +46,7 @@ nav {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
+	background-attachment: scroll;
 
 }
 
@@ -84,7 +84,7 @@ nav {
  	margin-top: 150px;
 }
 
-h2 {
+.form-title {
 	color: whitesmoke;
 	font-family: "Dancing Script", cursive;
 
@@ -103,4 +103,26 @@ textarea.form-control {
 	border: solid darkblue;
 	background-color: #2ddaed; opacity: .5;
 
+}
+
+#aboutme-1 {
+	background-color: black; opacity: 0.9;
+	color: whitesmoke;
+	border-radius: 20px;
+}
+
+#aboutme-1-image {
+	width: 300px;
+	height: 300px;
+	border-radius: 50px;
+}
+
+#aboutme-2 {
+	background-color: black; opacity: 0.8;
+	color: whitesmoke;
+	border-radius: 20px;
+}
+
+#carouselview {
+	margin-top: 100px;
 }
