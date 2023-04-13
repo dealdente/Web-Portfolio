@@ -1,0 +1,140 @@
+* {
+	border: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Raleway", cursive;
+	}
+
+/*#bg-image {
+	min-height: 2rem;
+	background-image: url(./images/navbar-bg.jpg);
+}*/
+
+nav {
+	position: sticky;
+	top: 1px;
+	margin-top: .7rem;
+	width: 100%;
+	list-style-type: none;
+}
+
+#bg-image-aboutme {
+	min-height: 100vh;
+	background-image: url(../images/aboutme-bg-2.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+}
+
+#bg-image-projects {
+	height: 100vh;
+	background-image: url(../images/projects-bg.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	background-attachment: scroll;
+
+}
+
+#bg-image-contactme {
+	height: 100vh;
+	background-image: url(../images/contactme.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+
+}
+
+#contact-main-div {
+	background-color: solid black;
+}
+
+.navbar-name {
+	border-bottom: 2px solid lightseagreen;
+	padding: 2px;
+/*	margin-left: 1rem;*/
+	border-radius: 16px;
+	font-size: 20px;
+	color: whitesmoke;
+	display: inline-block;
+}
+
+.dropdown {
+	background-color: lightcyan; opacity: 0.7;
+	border-radius: 10px;
+}
+
+.nav-link {
+	border-radius: 16px;
+	padding: 2px;
+	border-bottom: 2px solid lightseagreen;
+	border-radius: 16px;
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 20px;
+	color: whitesmoke;
+}
+
+.form-group {
+ 	margin-top: 150px;
+}
+
+.form-title {
+	color: whitesmoke;
+	font-family: "Dancing Script", cursive;
+
+}
+
+input.form-control {
+	border-radius: 10px;
+	border: solid darkblue;
+	margin-top: 5px;
+	background-color: #2ddaed; opacity: 0.5;
+}
+
+textarea.form-control {
+	border-radius: 10px;
+	margin-top: 5px;
+	border: solid darkblue;
+	background-color: #2ddaed; opacity: .5;
+
+}
+
+#aboutme-1 {
+	background-color: black; opacity: 0.9;
+	color: whitesmoke;
+	border-radius: 20px;
+}
+
+#aboutme-1-image {
+	width: 300px;
+	height: 300px;
+	border-radius: 50px;
+}
+
+#aboutme-2 {
+	background-color: black; opacity: 0.8;
+	color: whitesmoke;
+	border-radius: 20px;
+}
+
+#carouselview {
+	margin-top: 100px;
+}
+
+/*div h3 {
+	font-family: "Shadows Into Light", cursive;
+	color: #edb91c;
+	font-size: 40px;
+}*/
+
+div h5 {
+	font-family: "Shadows Into Light", cursive;
+	color: lightseagreen;
+	font-size: 35px;
+}
