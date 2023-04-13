@@ -23,7 +23,7 @@ nav {
 
 #bg-image-aboutme {
 	min-height: 100vh;
-	background-image: url(../images/aboutme-bg.gif);
+	background-image: url(../images/aboutme-bg-2.gif);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -125,4 +125,16 @@ textarea.form-control {
 
 #carouselview {
 	margin-top: 100px;
+}
+
+/*div h3 {
+	font-family: "Shadows Into Light", cursive;
+	color: #edb91c;
+	font-size: 40px;
+}*/
+
+div h5 {
+	font-family: "Shadows Into Light", cursive;
+	color: lightseagreen;
+	font-size: 35px;
 }

@@ -1,0 +1,100 @@
+* {
+	border: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+	}
+
+/*#bg-image {
+	min-height: 2rem;
+	background-image: url(./images/navbar-bg.jpg);
+}*/
+
+nav {
+	position: sticky;
+	top: 1px;
+	margin-top: .7rem;
+	width: 100%;
+	list-style-type: none;
+}
+
+#bg-image-home {
+	height: 100vh;
+	background-image: url(./images/home-bg.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+#profile-image {
+	border-radius: 50px;
+	width: 250px;
+	height: 250px;
+}
+
+.container {
+	text-align: center;
+	padding-top: 150px;
+}
+.container h1 {
+	font-family: "Dancing Script", cursive;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 10px;
+	color: #edb91c;
+
+}
+
+.container h2 {
+	color: whitesmoke;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	color: #919187;
+	font-style: italic;
+}
+
+.navbar-name {
+	border-bottom: 2px solid lightseagreen;
+	padding: 2px;
+/*	margin-left: 1rem;*/
+	border-radius: 16px;
+	font-size: 20px;
+	color: whitesmoke;
+	display: inline-block;
+}
+
+.dropdown {
+	background-color: lightcyan;
+	border-radius: 16px;
+	border-bottom: 2px solid lightseagreen;
+	color: whitesmoke;
+}
+
+.nav-link {
+	border-radius: 16px;
+	padding: 2px;
+	border-bottom: 2px solid lightseagreen;
+	border-radius: 16px;
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 20px;
+	color: whitesmoke;
+}
+
+div h3 {
+	font-family: "Shadows Into Light", cursive;
+	color: #edb91c;
+	font-size: 40px;
+}
+
+div h5 {
+	font-family: "Shadows Into Light", cursive;
+	color: lightseagreen;
+	font-size: 35px;
+}
